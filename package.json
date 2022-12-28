@@ -1,0 +1,25 @@
+{
+  "name": "secondnaturechallenge",
+  "version": "1.0.0",
+  "description": "second nature challange",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresBonillaD/SecondNatureChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresBonillaD/SecondNatureChallenge/issues"
+  },
+  "homepage": "https://github.com/AndresBonillaD/SecondNatureChallenge#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "puppeteer": "^19.4.1"
+  }
+}
