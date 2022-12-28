@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
 import { Configuration, OpenAIApi } from "openai";
+import {} from 'dotenv/config';
 
 // Scraping
 const URL = 'https://www.secondnature.com/company'
@@ -21,7 +22,7 @@ console.log(paragraphContent);
 
 // Open Ai
 const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: process.env.OPENAI_API_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
